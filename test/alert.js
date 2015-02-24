@@ -2,7 +2,7 @@
   
   return _.inherit(View, {
     onCreate: function () {
-		console.log("test oncreate");
+		console.log("test oncreate log 22222");
       this.$el.html(viewhtml);
     },
 
