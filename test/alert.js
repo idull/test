@@ -1,7 +1,8 @@
 ﻿define(['View', getViewTemplatePath('alert'), 'UIAlert'], function (View, viewhtml, UIAlert) {
-
+  
   return _.inherit(View, {
     onCreate: function () {
+		console.log("test oncreate");
       this.$el.html(viewhtml);
     },
 
